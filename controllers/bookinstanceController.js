@@ -160,7 +160,7 @@ exports.bookinstance_update_get = function(req, res, next) {
     }
     res.render('bookinstance_form', {
       title: 'Update BookInstance',
-      books: results.books,
+      book_list: results.books,
       bookinstance: results.bookinstance
     });
   });
